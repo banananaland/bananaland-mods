@@ -1,0 +1,3 @@
+[submodule "basic_machines"]
+	path = basic_machines
+	url = https://github.com/ac-minetest/basic_machines/
