@@ -1,3 +1,34 @@
 [submodule "basic_machines"]
 	path = basic_machines
 	url = https://github.com/ac-minetest/basic_machines/
+[submodule "abripanes"]
+	path = abripanes
+	url = https://github.com/Ezhh/abripanes
+[submodule "ambience"]
+	path = ambience
+	url = https://notabug.org/TenPlus1/ambience.git
+[submodule "anvil"]
+	path = anvil
+	url = https://github.com/minetest-mods/anvil
+[submodule "apartment"]
+	path = apartment
+	url = https://github.com/Sokomine/apartment.git
+[submodule "areas"]
+	path = areas
+	url = https://github.com/minetest-mods/areas
+[submodule "contrib_bakedclay"]
+	path = contrib_bakedclay
+	url = https://github.com/thetaepsilon-gamedev/contrib_bakedclay
+	branch = dyefixes
+[submodule ".partial_mods/cool_trees"]
+	path = .partial_mods/cool_trees
+	url = https://github.com/runsy/cool_trees
+[submodule "basic_materials"]
+	path = basic_materials
+	url = https://github.com/mt-mods/basic_materials
+[submodule "basic_signs"]
+	path = basic_signs
+	url = https://github.com/mt-mods/basic_signs
+[submodule "bedrock"]
+	path = bedrock
+	url = https://github.com/Calinou/bedrock
