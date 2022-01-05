@@ -17,7 +17,7 @@
 	path = areas
 	url = https://github.com/minetest-mods/areas
 [submodule "contrib_bakedclay"]
-	path = contrib_bakedclay
+	path = bakedclay
 	url = https://github.com/thetaepsilon-gamedev/contrib_bakedclay
 	branch = dyefixes
 [submodule ".partial_mods/cool_trees"]
