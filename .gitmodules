@@ -32,3 +32,42 @@
 [submodule "bedrock"]
 	path = bedrock
 	url = https://github.com/Calinou/bedrock
+[submodule "beerchat"]
+	path = beerchat
+	url = https://github.com/minetest-beerchat/beerchat
+[submodule "bonemeal"]
+	path = bonemeal
+	url = https://notabug.org/TenPlus1/bonemeal.git
+[submodule "bowlingball"]
+	path = bowlingball
+	url = https://github.com/thetaepsilon-gamedev/bowlingball
+[submodule "bucket_privs"]
+	path = bucket_privs
+	url = https://github.com/ChaosWormz/bucket_privs.git
+[submodule "caverealms_lite"]
+	path = caverealms_lite
+	url = https://github.com/Ezhh/caverealms_lite.git
+[submodule "cblocks"]
+	path = cblocks
+	url = https://notabug.org/TenPlus1/cblocks
+[submodule "cottages"]
+	path = cottages
+	url = https://github.com/Sokomine/cottages.git
+[submodule "currency"]
+	path = currency
+	url = https://github.com/mt-mods/currency.git
+[submodule "digilines"]
+	path = digilines
+	url = https://github.com/minetest-mods/digilines.git
+[submodule "digistuff"]
+	path = digistuff
+	url = https://github.com/mt-mods/digistuff.git
+[submodule "dreambuilder_hotbar"]
+	path = dreambuilder_hotbar
+	url = https://github.com/mt-mods/dreambuilder_hotbar
+[submodule "entity-dev-modpack"]
+	path = entity-dev-modpack
+	url = https://github.com/thetaepsilon-gamedev/entity-dev-modpack.git
+[submodule "consolelua"]
+	path = consolelua
+	url = https://github.com/thetaepsilon-gamedev/consolelua
