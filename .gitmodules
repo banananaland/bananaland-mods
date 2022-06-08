@@ -71,3 +71,48 @@
 [submodule "consolelua"]
 	path = consolelua
 	url = https://github.com/thetaepsilon-gamedev/consolelua
+[submodule "extra_doors"]
+	path = extra_doors
+	url = https://bitbucket.org/sorcerykid/extra_doors.git
+[submodule "farming"]
+	path = farming
+	url = https://notabug.org/TenPlus1/farming.git
+[submodule "fsc"]
+	path = fsc
+	url = https://github.com/sofar/fsc.git
+[submodule "gloopblocks"]
+	path = gloopblocks
+	url = https://github.com/mt-mods/gloopblocks
+[submodule "hangglider"]
+	path = hangglider
+	url = https://github.com/mt-mods/hangglider
+[submodule "homedecor_modpack"]
+	path = homedecor_modpack
+	url = https://github.com/mt-mods/homedecor_modpack
+[submodule "ilights"]
+	path = ilights
+	url = https://github.com/mt-mods/ilights
+[submodule "invsaw"]
+	path = invsaw
+	url = git://cheapiesystems.com/invsaw
+[submodule "item_drop"]
+	path = item_drop
+	url = https://github.com/minetest-mods/item_drop.git
+[submodule "letters"]
+	path = letters
+	url = https://github.com/minetest-mods/letters
+[submodule "maptools"]
+	path = maptools
+	url = https://github.com/minetest-mods/maptools
+[submodule "mese_restriction"]
+	path = mese_restriction
+	url = https://github.com/Ezhh/mese_restriction
+[submodule "3d_armor"]
+	path = 3d_armor
+	url = https://github.com/minetest-mods/3d_armor
+[submodule "minetest-devsupport-modpack"]
+	path = devsupport
+	url = https://github.com/thetaepsilon-gamedev/minetest-devsupport-modpack.git
+[submodule "minetest_snippets"]
+	path = minetest_snippets
+	url = https://gitlab.com/luk3yx/minetest-snippets
