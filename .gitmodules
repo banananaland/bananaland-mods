@@ -1,6 +1,6 @@
 [submodule "basic_machines"]
 	path = basic_machines
-	url = https://github.com/ac-minetest/basic_machines/
+	url = https://github.com/waxtatect/basic_machines
 [submodule "abripanes"]
 	path = abripanes
 	url = https://github.com/Ezhh/abripanes
@@ -224,3 +224,9 @@
 [submodule "xdecor"]
 	path = xdecor
 	url = https://github.com/minetest-mods/xdecor.git
+[submodule "mtt"]
+	path = mtt
+	url = https://github.com/BuckarooBanzay/mtt
+[submodule "mapserver_mod"]
+	path = mapserver_mod
+	url = https://github.com/minetest-mapserver/mapserver_mod
