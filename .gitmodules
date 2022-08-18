@@ -116,3 +116,111 @@
 [submodule "minetest_snippets"]
 	path = minetest_snippets
 	url = https://gitlab.com/luk3yx/minetest-snippets
+[submodule "mob_horse"]
+	path = mob_horse
+	url = https://github.com/minetest-mirrors/mob_horse
+[submodule "mobs_animal"]
+	path = mobs_animal
+	url = https://github.com/minetest-mirrors/mobs_animal
+[submodule "mobs_monster"]
+	path = mobs_monster
+	url = https://github.com/minetest-mirrors/mobs_monster
+[submodule "mobs_redo"]
+	path = mobs_redo
+	url = https://github.com/minetest-mirrors/mobs_redo
+[submodule "mobs_water"]
+	path = mobs_water
+	url = https://github.com/minetest-mirrors/mobs_water
+[submodule "mobs_npc"]
+	path = mobs_npc
+	url = https://github.com/pandorabox-io/mobs_npc
+[submodule "monitoring"]
+	path = monitoring
+	url = https://github.com/minetest-monitoring/monitoring
+[submodule "monitoring_basic_machines"]
+	path = monitoring_basic_machines
+	url = https://github.com/minetest-monitoring/monitoring_basic_machines
+[submodule "monitoring_digilines"]
+	path = monitoring_digilines
+	url = https://github.com/minetest-monitoring/monitoring_digilines
+[submodule "monitoring_mesecons"]
+	path = monitoring_mesecons
+	url = https://github.com/minetest-monitoring/monitoring_mesecons
+[submodule "moreblocks"]
+	path = moreblocks
+	url = https://github.com/minetest-mods/moreblocks
+[submodule "moreores"]
+	path = moreores
+	url = https://github.com/minetest-mods/moreores
+[submodule "mtui_mod"]
+	path = mtui_mod
+	url = https://github.com/minetest-go/mtui_mod
+[submodule "mt_morcmds"]
+	path = mt_morcmds
+	url = https://github.com/ChaosWormz/mt_morcmds.git
+[submodule "multihome"]
+	path = multihome
+	url = https://github.com/octacian/multihome
+[submodule "names_per_ip"]
+	path = names_per_ip
+	url = https://github.com/SmallJoker/names_per_ip.git
+[submodule "pizza-improved"]
+	path = pizza
+	url = https://github.com/deezl/pizza-improved
+[submodule "player_monoids"]
+	path = player_monoids
+	url = https://github.com/minetest-mods/player_monoids
+[submodule "portal_entity"]
+	path = portal_entity
+	url = https://github.com/thetaepsilon-gamedev/portal_entity.git
+[submodule "protector"]
+	path = protector
+	url = https://github.com/mt-mods/protector
+[submodule "replacer"]
+	path = replacer
+	url = https://github.com/mt-mods/replacer
+[submodule "signs_lib"]
+	path = signs_lib
+	url = https://github.com/mt-mods/signs_lib
+[submodule "simple_streetlights"]
+	path = simple_streetlights
+	url = https://github.com/mt-mods/simple_streetlights
+[submodule "skinsdb"]
+	path = skinsdb
+	url = https://github.com/minetest-mods/skinsdb
+[submodule "sneak_glitch"]
+	path = sneak_glitch
+	url = https://github.com/SmallJoker/sneak_glitch.git
+[submodule "spectator_mode"]
+	path = spectator_mode
+	url = https://github.com/minetest-mods/spectator_mode
+[submodule "teleport-request"]
+	path = teleport-request
+	url = https://github.com/minetest-mods/teleport-request.git
+[submodule "temp_privs"]
+	path = temp_privs
+	url = https://github.com/git512/temp_privs.git
+[submodule "travelnet"]
+	path = travelnet
+	url = https://github.com/mt-mods/travelnet/
+[submodule "ullapool_caber"]
+	path = ullapool_caber
+	url = https://github.com/thetaepsilon-gamedev/ullapool_caber
+[submodule "unified_inventory"]
+	path = unified_inventory
+	url = https://github.com/minetest-mods/unified_inventory
+[submodule "unified_inventory_plus"]
+	path = unified_inventory_plus
+	url = https://github.com/bousket/unified_inventory_plus.git
+[submodule "unifieddyes"]
+	path = unifieddyes
+	url = https://github.com/mt-mods/unifieddyes
+[submodule "worldedit"]
+	path = worldedit
+	url = https://github.com/Uberi/Minetest-WorldEdit.git
+[submodule "xban2"]
+	path = xban2
+	url = https://github.com/minetest-mods/xban2
+[submodule "xdecor"]
+	path = xdecor
+	url = https://github.com/minetest-mods/xdecor.git

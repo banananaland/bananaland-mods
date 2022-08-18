@@ -1,0 +1,19 @@
+newplayer
+=========
+
+This mod adds a form containing the rules that is shown to players without interact when they join. They are also teleported to a special spawn point designated for players without interact.
+If they press "I agree", they are teleported to the normal spawn and interact is granted. The /spawn command will also take them back there (or to the non-interact spawn if they don't have interact).
+If they press "I do not agree", they are allowed to play normally (but without interact), although bright red text will be placed in the middle of the screen explaining the situation.
+At any point, the /rules command will show the rules. The /set_interact_spawn and /set_no_interact_spawn commands (requiring the server priv) will set the respective spawn point to your current location.
+To set the rules, either place a file called "newplayer-rules.txt" in the world directory, press the "Edit" button at the rules screen, or use the /editrules command (the latter two methods require the "server" priv). If this file does not exist, the mod will tell you where to create it if you attempt to view the rules.
+To cause more privileges than just interact to be granted, set the setting newplayer.extra_privs to a space-delimited list of the extra privs you want.
+
+If one or more keywords are set (Use /getkeywords to see them, /addkeyword to add one, or /delkeyword to remove one, all three require server privs.), then players will have to enter a randomly-chosen entry from the list into a provided text box before clicking the agree button. It is then possible to put the string "@KEYWORD" in the rules, which will be replaced with the chosen keyword when they are shown to a player without interact. This substitution (intentionally) does not occur when the rules are being shown to somebody with interact (for example, if they use the /rules command because they want to re-read them)* so that they can't see the keyword, preventing them from telling other players what it is... or what they think it is, since the other player will likely have a different keyword assuming several are set.
+If a keyword is not set, players are not asked for it and simply pressing the "I agree" button is enough.
+
+If a player without interact says anything containing the word "help" (case-insensitive), they are shown a message box explaining that they need to read the rules before they can build. If they choose to do so, the rules are shown.
+
+If a player without interact says anything containing the word "rules" (case-insensitive), they are shown the rules. This covers several types of failed attempts at using the chat command, such as "rules", "\rules", " /rules", etc.
+
+
+* Like that ever happens.
