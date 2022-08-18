@@ -94,7 +94,7 @@
 	url = https://github.com/mt-mods/ilights
 [submodule "invsaw"]
 	path = invsaw
-	url = git://cheapiesystems.com/invsaw
+	url = https://github.com/minetest-mirrors/invsaw
 [submodule "item_drop"]
 	path = item_drop
 	url = https://github.com/minetest-mods/item_drop.git
