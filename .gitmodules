@@ -21,7 +21,7 @@
 	url = https://github.com/thetaepsilon-gamedev/contrib_bakedclay
 	branch = dyefixes
 [submodule ".partial_mods/cool_trees"]
-	path = .partial_mods/cool_trees
+	path = cool_trees
 	url = https://github.com/runsy/cool_trees
 [submodule "basic_materials"]
 	path = basic_materials
