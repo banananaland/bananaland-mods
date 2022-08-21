@@ -6,7 +6,7 @@
 	url = https://github.com/Ezhh/abripanes
 [submodule "ambience"]
 	path = ambience
-	url = https://notabug.org/TenPlus1/ambience.git
+	url = https://github.com/minetest-mirrors/ambience.git
 [submodule "anvil"]
 	path = anvil
 	url = https://github.com/minetest-mods/anvil
