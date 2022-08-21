@@ -37,7 +37,7 @@
 	url = https://github.com/minetest-beerchat/beerchat
 [submodule "bonemeal"]
 	path = bonemeal
-	url = https://notabug.org/TenPlus1/bonemeal.git
+	url = https://github.com/minetest-mirrors/bonemeal.git
 [submodule "bowlingball"]
 	path = bowlingball
 	url = https://github.com/thetaepsilon-gamedev/bowlingball
@@ -76,7 +76,7 @@
 	url = https://bitbucket.org/sorcerykid/extra_doors.git
 [submodule "farming"]
 	path = farming
-	url = https://notabug.org/TenPlus1/farming.git
+	url = https://github.com/minetest-mirrors/farming.git
 [submodule "fsc"]
 	path = fsc
 	url = https://github.com/sofar/fsc.git
