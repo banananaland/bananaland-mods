@@ -68,9 +68,6 @@
 [submodule "entity-dev-modpack"]
 	path = entity-dev-modpack
 	url = https://github.com/thetaepsilon-gamedev/entity-dev-modpack.git
-[submodule "consolelua"]
-	path = consolelua
-	url = https://github.com/thetaepsilon-gamedev/consolelua
 [submodule "extra_doors"]
 	path = extra_doors
 	url = https://bitbucket.org/sorcerykid/extra_doors.git
