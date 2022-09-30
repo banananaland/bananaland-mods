@@ -112,7 +112,7 @@
 	url = https://github.com/minetest-mods/3d_armor
 [submodule "minetest-devsupport-modpack"]
 	path = devsupport
-	url = https://github.com/thetaepsilon-gamedev/minetest-devsupport-modpack.git
+	url = https://github.com/banananaland/devsupport.git
 [submodule "minetest_snippets"]
 	path = minetest_snippets
 	url = https://gitlab.com/luk3yx/minetest-snippets
