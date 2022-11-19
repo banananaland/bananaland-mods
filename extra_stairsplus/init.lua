@@ -54,3 +54,10 @@ if minetest.get_modpath("xdecor") then
     sounds = default.node_sound_stone_defaults(),
   })
 end
+
+stairsplus:register_all("xdecor", "cactusbrick", "xdecor:cactusbrick", {
+  description = "cactusbrick",
+  tiles = { "xdecor_cactusbrick.png", "xdecor_cactusbrick.png", "xdecor_cactusbrick.png" },
+  groups = { cracky = 2 },
+  sounds = default.node_sound_stone_defaults(),
+})
