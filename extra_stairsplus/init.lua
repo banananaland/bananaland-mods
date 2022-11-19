@@ -45,3 +45,10 @@ local cave_nodes = { -- Default stairs/slabs/panels/microblocks:
 		})
 	end
 end
+
+stairsplus:register_all("xdecor", "moonbrick", "xdecor:moonbrick", {
+  description = "moonbrick",
+  tiles = { "xdecor_moonbrick.png", "xdecor_moonbrick.png", "xdecor_moonbrick.png" },
+  groups = { cracky = 2 },
+  sounds = default.node_sound_stone_defaults(),
+})
