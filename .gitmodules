@@ -16,11 +16,10 @@
 [submodule "areas"]
 	path = areas
 	url = https://github.com/minetest-mods/areas
-[submodule "contrib_bakedclay"]
+[submodule "bakedclay"]
 	path = bakedclay
-	url = https://github.com/thetaepsilon-gamedev/contrib_bakedclay
-	branch = dyefixes
-[submodule ".partial_mods/cool_trees"]
+	url = https://github.com/minetest-mirrors/bakedclay.git
+[submodule "cool_trees"]
 	path = cool_trees
 	url = https://github.com/runsy/cool_trees
 [submodule "basic_materials"]
