@@ -21,7 +21,7 @@
 	url = https://github.com/minetest-mirrors/bakedclay.git
 [submodule "cool_trees"]
 	path = cool_trees
-	url = https://github.com/runsy/cool_trees
+	url = https://github.com/runsy/cool_trees.git
 [submodule "basic_materials"]
 	path = basic_materials
 	url = https://github.com/mt-mods/basic_materials
