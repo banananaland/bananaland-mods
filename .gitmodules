@@ -226,3 +226,6 @@
 [submodule "mapserver_mod"]
 	path = mapserver_mod
 	url = https://github.com/minetest-mapserver/mapserver_mod
+[submodule "morelights"]
+	path = morelights
+	url = https://github.com/random-geek/morelights/
