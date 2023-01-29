@@ -229,3 +229,6 @@
 [submodule "morelights"]
 	path = morelights
 	url = https://github.com/random-geek/morelights/
+[submodule "otp"]
+	path = otp
+	url = https://github.com/mt-mods/otp
