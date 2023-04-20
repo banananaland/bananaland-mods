@@ -232,3 +232,6 @@
 [submodule "otp"]
 	path = otp
 	url = https://github.com/mt-mods/otp
+[submodule "futil"]
+	path = futil
+	url = https://github.com/fluxionary/minetest-futil
