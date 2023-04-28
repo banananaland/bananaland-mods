@@ -232,3 +232,6 @@
 [submodule "otp"]
 	path = otp
 	url = https://github.com/mt-mods/otp
+[submodule "spill_removal"]
+	path = spill_removal
+	url = https://github.com/pandorabox-io/spill_removal
