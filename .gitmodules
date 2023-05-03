@@ -133,15 +133,6 @@
 [submodule "monitoring"]
 	path = monitoring
 	url = https://github.com/minetest-monitoring/monitoring
-[submodule "monitoring_basic_machines"]
-	path = monitoring_basic_machines
-	url = https://github.com/minetest-monitoring/monitoring_basic_machines
-[submodule "monitoring_digilines"]
-	path = monitoring_digilines
-	url = https://github.com/minetest-monitoring/monitoring_digilines
-[submodule "monitoring_mesecons"]
-	path = monitoring_mesecons
-	url = https://github.com/minetest-monitoring/monitoring_mesecons
 [submodule "moreblocks"]
 	path = moreblocks
 	url = https://github.com/minetest-mods/moreblocks
