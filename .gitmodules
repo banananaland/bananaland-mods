@@ -223,3 +223,9 @@
 [submodule "otp"]
 	path = otp
 	url = https://github.com/mt-mods/otp
+[submodule "mesecons_protected_switch"]
+	path = mesecons_protected_switch
+	url = https://github.com/pandorabox-io/mesecons_protected_switch
+[submodule "mesecons_protected_button"]
+	path = mesecons_protected_button
+	url = https://github.com/pandorabox-io/mesecons_protected_button
