@@ -48,7 +48,7 @@
 	url = https://github.com/Ezhh/caverealms_lite.git
 [submodule "cblocks"]
 	path = cblocks
-	url = https://codeberg.org/TenPlus1/cblocks
+	url = https://github.com/minetest-mirrors/cblocks.git
 [submodule "cottages"]
 	path = cottages
 	url = https://github.com/Sokomine/cottages.git
