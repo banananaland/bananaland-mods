@@ -229,3 +229,6 @@
 [submodule "mesecons_protected_button"]
 	path = mesecons_protected_button
 	url = https://github.com/pandorabox-io/mesecons_protected_button
+[submodule "mail"]
+	path = mail
+	url = https://github.com/mt-mods/mail.git
