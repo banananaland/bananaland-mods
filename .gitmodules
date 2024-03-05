@@ -232,3 +232,6 @@
 [submodule "mail"]
 	path = mail
 	url = https://github.com/mt-mods/mail.git
+[submodule "xcompat"]
+	path = xcompat
+	url = https://github.com/mt-mods/xcompat/
