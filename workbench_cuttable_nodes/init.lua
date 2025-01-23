@@ -14,8 +14,9 @@ local cuttable_nodes = {}
 for nodename, def in pairs(minetest.registered_nodes) do
 	for _, mod_name in ipairs(mod_names) do
 		local modname = nodename:split(":")[1]
-		if mod_name == modname and xdecor.stairs_valid_def(def) then
+		if modname == mod_name and xdecor.stairs_valid_def(def) then
 			cuttable_nodes[#cuttable_nodes + 1] = nodename
+			break
 		end
 	end
 end
