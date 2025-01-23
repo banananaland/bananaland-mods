@@ -1,23 +1,20 @@
 local mod_names = {
-	"basic_materials",
-	"bedrock",
-	"caverealms",
-	"farming",
-	"mesecons_stickyblocks",
-	"mobs",
-	"moreblocks",
-	"moreores"
+	["basic_materials"] = true,
+	["bedrock"] = true,
+	["caverealms"] = true,
+	["farming"] = true,
+	["mesecons_stickyblocks"] = true,
+	["mobs"] = true,
+	["moreblocks"] = true,
+	["moreores"] = true
 }
 
 local cuttable_nodes = {}
 
 for nodename, def in pairs(minetest.registered_nodes) do
-	for _, mod_name in ipairs(mod_names) do
-		local modname = nodename:split(":")[1]
-		if modname == mod_name and xdecor.stairs_valid_def(def) then
-			cuttable_nodes[#cuttable_nodes + 1] = nodename
-			break
-		end
+	local modname = nodename:split(":")[1]
+	if mod_names[modname] and xdecor.stairs_valid_def(def) then
+		cuttable_nodes[#cuttable_nodes + 1] = nodename
 	end
 end
 
