@@ -11,7 +11,6 @@ if minetest.get_modpath("caverealms") then
     "caverealms:salt_crystal",
     "caverealms:stone_with_salt",
     "caverealms:glow_obsidian",
-    "caverealms:glow_obsidian_glass",
   }
 
   for _, name in pairs(cave_nodes) do
