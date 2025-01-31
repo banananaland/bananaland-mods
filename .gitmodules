@@ -45,7 +45,7 @@
 	url = https://github.com/ChaosWormz/bucket_privs.git
 [submodule "caverealms_lite"]
 	path = caverealms_lite
-	url = https://github.com/Ezhh/caverealms_lite.git
+	url = https://github.com/minetest-mirrors/caverealms_lite.git
 [submodule "cblocks"]
 	path = cblocks
 	url = https://github.com/minetest-mirrors/cblocks.git
@@ -210,7 +210,7 @@
 	url = https://github.com/minetest-mods/xban2
 [submodule "xdecor"]
 	path = xdecor
-	url = https://github.com/minetest-mods/xdecor.git
+	url = https://github.com/minetest-mirrors/xdecor-libre.git
 [submodule "mtt"]
 	path = mtt
 	url = https://github.com/BuckarooBanzay/mtt
