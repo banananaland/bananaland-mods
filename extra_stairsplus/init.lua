@@ -71,4 +71,5 @@ stairs.register_stair_and_slab(
   "Clay Stair",
   "Clay Slab",
   clay_def.sounds,
-  false)
+  false
+)
