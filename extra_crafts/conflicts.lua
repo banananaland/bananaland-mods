@@ -28,17 +28,6 @@ if minetest.get_modpath("xdecor") and minetest.get_modpath("cottages") then
   })
 end
 
-if minetest.get_modpath("anvil") and minetest.get_modpath("cottages") then
-  minetest.clear_craft({
-    output = "cottages:anvil"
-  })
-  minetest.register_craft({
-    output = "cottages:anvil",
-    recipe = { "anvil:anvil" },
-    type = "shapeless"
-  })
-end
-
 if minetest.get_modpath("mobs_monster") and minetest.get_modpath("homedecor_cobweb") then
   minetest.clear_craft({
     output = "homedecor:cobweb_corner"

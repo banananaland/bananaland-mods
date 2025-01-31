@@ -7,9 +7,6 @@
 [submodule "ambience"]
 	path = ambience
 	url = https://github.com/minetest-mirrors/ambience.git
-[submodule "anvil"]
-	path = anvil
-	url = https://github.com/minetest-mods/anvil
 [submodule "apartment"]
 	path = apartment
 	url = https://github.com/Sokomine/apartment.git
@@ -51,7 +48,7 @@
 	url = https://github.com/minetest-mirrors/cblocks.git
 [submodule "cottages"]
 	path = cottages
-	url = https://github.com/mt-mods/cottages.git
+	url = https://github.com/fluxionary/minetest-cottages.git
 [submodule "currency"]
 	path = currency
 	url = https://github.com/mt-mods/currency.git
