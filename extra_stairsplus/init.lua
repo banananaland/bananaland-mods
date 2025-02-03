@@ -1,8 +1,5 @@
 if minetest.get_modpath("caverealms") then
   local cave_nodes = { -- Default stairs/slabs/panels/microblocks:
-    "caverealms:glow_crystal",
-    "caverealms:glow_emerald",
-    "caverealms:glow_mese",
     "caverealms:glow_ore",
     "caverealms:glow_emerald_ore",
     "caverealms:glow_ruby",
