@@ -39,7 +39,7 @@
 	url = https://github.com/minetest-mirrors/bonemeal.git
 [submodule "bowlingball"]
 	path = bowlingball
-	url = https://github.com/thetaepsilon-gamedev/bowlingball
+	url = https://github.com/mt-historical/bowlingball
 [submodule "bucket_privs"]
 	path = bucket_privs
 	url = https://github.com/ChaosWormz/bucket_privs.git
