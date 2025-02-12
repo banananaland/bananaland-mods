@@ -49,11 +49,23 @@ if minetest.get_modpath("xdecor") then
     groups = { cracky = 2 },
     sounds = default.node_sound_stone_defaults(),
   })
+
+  stairsplus:register_all("xdecor", "cactusbrick", "xdecor:cactusbrick", {
+    description = "cactusbrick",
+    tiles = { "xdecor_cactusbrick.png", "xdecor_cactusbrick.png", "xdecor_cactusbrick.png" },
+    groups = { cracky = 2 },
+    sounds = default.node_sound_stone_defaults(),
+  })
 end
 
-stairsplus:register_all("xdecor", "cactusbrick", "xdecor:cactusbrick", {
-  description = "cactusbrick",
-  tiles = { "xdecor_cactusbrick.png", "xdecor_cactusbrick.png", "xdecor_cactusbrick.png" },
-  groups = { cracky = 2 },
-  sounds = default.node_sound_stone_defaults(),
-})
+local clay_def = minetest.registered_nodes["default:clay"]
+stairs.register_stair_and_slab(
+  "clay",
+  "default:clay",
+  clay_def.groups,
+  clay_def.tiles,
+  "Clay Stair",
+  "Clay Slab",
+  clay_def.sounds,
+  false
+)
