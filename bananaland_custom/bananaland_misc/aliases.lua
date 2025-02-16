@@ -1,4 +1,4 @@
-if minetest.get_modpath("building_blocks") then -- fix building_blocks aliases
+if minetest.get_modpath("building_blocks") and minetest.get_modpath("moreblocks") then -- fix building_blocks aliases
 	stairsplus:register_alias_force_all("moreblocks", "tar", "building_blocks", "Tar")
 end
 

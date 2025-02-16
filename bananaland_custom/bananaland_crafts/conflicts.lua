@@ -1,5 +1,5 @@
 -- Conflicts with wool:slab_red 6
-if minetest.get_modpath("xdecor") and minetest.get_modpath("wool") then
+if minetest.get_modpath("wool") then
 	minetest.clear_craft({
 		output = "xdecor:cushion 3"
 	})
@@ -14,7 +14,7 @@ if minetest.get_modpath("xdecor") and minetest.get_modpath("wool") then
 end
 
 -- Conflicts with cottages:glass_pane 4
-if minetest.get_modpath("xdecor") and minetest.get_modpath("cottages") then
+if minetest.get_modpath("cottages") then
 	minetest.clear_craft({
 		output = "xdecor:woodframed_glass"
 	})
@@ -39,7 +39,7 @@ if minetest.get_modpath("mobs_monster") and minetest.get_modpath("homedecor_cobw
 	})
 end
 
-if minetest.get_modpath("mobs_monster") and minetest.get_modpath("xdecor") then
+if minetest.get_modpath("mobs_monster") then
 	minetest.clear_craft({
 		output = "xdecor:cobweb"
 	})
@@ -50,7 +50,7 @@ if minetest.get_modpath("mobs_monster") and minetest.get_modpath("xdecor") then
 	})
 end
 
-if minetest.get_modpath("homedecor_misc") and minetest.get_modpath("xdecor") then
+if minetest.get_modpath("homedecor_misc") then
 	minetest.clear_craft({
 		output = "xdecor:tatami"
 	})
@@ -72,7 +72,7 @@ if minetest.get_modpath("doors") and minetest.get_modpath("xpanes") then
 	})
 end
 
-if minetest.get_modpath("farming") and minetest.get_modpath("xdecor") then
+if minetest.get_modpath("farming") then
 	minetest.clear_craft({
 		output = "xdecor:bowl 3"
 	})
