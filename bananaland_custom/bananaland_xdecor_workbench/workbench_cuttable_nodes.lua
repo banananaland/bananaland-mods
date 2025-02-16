@@ -1,3 +1,4 @@
+-- Register cuttable blocks
 local mod_names = {
 	["basic_materials"] = true,
 	["bedrock"] = true,
@@ -11,6 +12,9 @@ local mod_names = {
 
 local cuttable_nodes = {}
 
+-- Nodes allowed to be cut:
+-- Only the regular, solid blocks without metas or explosivity
+-- from the mods list.
 for nodename, def in pairs(minetest.registered_nodes) do
 	local modname = nodename:split(":")[1]
 	if mod_names[modname] and xdecor.stairs_valid_def(def) then
