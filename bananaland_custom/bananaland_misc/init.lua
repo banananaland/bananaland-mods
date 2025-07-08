@@ -27,16 +27,3 @@ if minetest.get_modpath("extra_doors") then -- fix extra_doors texture name
 	door_tiles_overwrite("doors:door_steelpanel1_c")
 	door_tiles_overwrite("doors:door_steelpanel1_d")
 end
-
-if minetest.global_exists("basic_machines") then
-	if minetest.global_exists("areas") and minetest.global_exists("protector") then -- areas mod and mt-mods/protector mod
-		local protector_radius = tonumber(minetest.settings:get("protector_radius")) or 5
-		basic_machines.is_protected = function(pos, machine_owner)
-			if protector.can_dig(protector_radius, pos, machine_owner, false, 3) and areas:canInteract(pos, machine_owner) then
-				return false
-			end
-	
-			return true
-		end
-	end
-end
